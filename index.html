@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Listado de Frutas</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Listado de Frutas</h1>
+        <div class="dropdown">
+          <a onclick="myFunction()" class="dropbtn"> 🎨 </a>
+          <div id="myDropdown" class="dropdown-content">
+            <a onclick="changeColor('#ced4da')">
+              <span class="circle" style="background-color: #ced4da"></span
+              >
+            </a>
+            <a onclick="changeColor('#f9dcc4')">
+              <span class="circle" style="background-color: #f9dcc4"></span
+              >
+              <!--   <span class="circle" style="background-color: #132035"></span -->
+            </a>
+          </div>
+        </div>
+        <ol>
+          <li class="odd">🍏</li>
+          <li class="pair">🍉</li>
+          <li class="odd">🍌</li>
+          <li class="pair">🍇</li>
+          <li class="odd">🍓</li>
+          <li class="pair">🍍</li>
+          <li class="odd">🍒</li>
+          <li class="pair">🍋</li>
+          <li class="odd">🍐</li>
+          <li class="pair">🍎</li>
+        </ol>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
